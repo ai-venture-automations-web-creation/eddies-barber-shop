@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Eddie's Barber Shop in Clifton, NJ — a neighborhood classic since day one. Trusted by 142+ customers for precision cuts, fades, beard trims, and hot towel shaves. Call (973) 928-4404." />
+  <meta name="keywords" content="barber shop Clifton NJ, haircut Clifton, fade Clifton NJ, Eddie's Barber Shop, beard trim, hot towel shave, barber near me" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Eddie's Barber Shop | Clifton, NJ" />
+  <meta property="og:description" content="A neighborhood classic trusted by 142+ customers. Precision cuts, fades, beard trims, and hot towel shaves in Clifton, NJ." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://eddiesbarbershopclifton.com" />
+  <meta name="geo.region" content="US-NJ" />
+  <meta name="geo.placename" content="Clifton" />
+  <meta name="geo.position" content="40.8798483;-74.1571218" />
+  <title>Eddie's Barber Shop | Clifton, NJ — Trusted Since Day One</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Lato:wght@300;400;700&family=Special+Elite&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BarberShop",
+    "name": "Eddie's Barber Shop",
+    "image": "images/hero-1.jpg",
+    "url": "https://eddiesbarbershopclifton.com",
+    "telephone": "+19739284404",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1076 Main Ave",
+      "addressLocality": "Clifton",
+      "addressRegion": "NJ",
+      "postalCode": "07011",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.8798483,
+      "longitude": -74.1571218
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "09:00",
+        "closes": "19:00"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "reviewCount": "142"
+    },
+    "priceRange": "$$",
+    "currenciesAccepted": "USD",
+    "paymentAccepted": "Cash, Credit Card",
+    "hasMap": "https://maps.google.com/?q=1076+Main+Ave,+Clifton,+NJ+07011"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════
+       NAVBAR
+  ═══════════════════════════════════════ -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" aria-label="Eddie's Barber Shop home">
+        <i class="fas fa-cut nav-logo-icon"></i>
+        <span class="nav-logo-text">
+          <span class="logo-main">Eddie's</span>
+          <span class="logo-sub">Barber Shop</span>
+        </span>
+      </a>
+
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#reviews" class="nav-link">Reviews</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li>
+          <a href="tel:+19739284404" class="nav-cta">
+            <i class="fas fa-phone"></i> Call Now
+          </a>
+        </li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- ═══════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════ -->
+  <section class="hero" id="hero" aria-label="Hero section">
+    <div class="hero-bg">
+      <img
+        src="images/hero-1.jpg"
+        alt="Classic barbershop interior"
+        class="hero-img"
+        loading="eager"
+        fetchpriority="high"
+      />
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge fade-in">
+        <i class="fas fa-star"></i>
+        <span>4.5 Stars &bull; 142 Reviews</span>
+        <i class="fas fa-star"></i>
+      </div>
+      <h1 class="hero-title fade-in">
+        <span class="title-top">Eddie's</span>
+        <span class="title-main">Barber Shop</span>
+      </h1>
+      <p class="hero-tagline fade-in">Clifton's Trusted Classic Since Day One</p>
+      <p class="hero-sub fade-in">
+        Precision cuts. Honest prices. A chair you can count on.<br />
+        Serving the neighborhood at 1076 Main Ave, Clifton, NJ.
+      </p>
+      <div class="hero-actions fade-in">
+        <a href="#contact" class="btn btn-primary">
+          <i class="fas fa-calendar-check"></i> Book Your Cut
+        </a>
+        <a href="tel:+19739284404" class="btn btn-secondary">
+          <i class="fas fa-phone"></i> (973) 928-4404
+        </a>
+      </div>
+      <div class="hero-stats fade-in">
+        <div class="stat">
+          <strong>142+</strong>
+          <span>Happy Clients</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <strong>4.5</strong>
+          <span>Star Rating</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <strong>Clifton</strong>
+          <span>NJ's Own</span>
+        </div>
+      </div>
+    </div>
+
+    <a href="#services" class="hero-scroll" aria-label="Scroll to services">
+      <span>Explore</span>
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       TRUST BAR
+  ═══════════════════════════════════════ -->
+  <section class="trust-bar" aria-label="Trust indicators">
+    <div class="container">
+      <div class="trust-items">
+        <div class="trust-item reveal">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>1076 Main Ave, Clifton NJ</span>
+        </div>
+        <div class="trust-item reveal">
+          <i class="fas fa-clock"></i>
+          <span>Open Daily &bull; Closes 7 PM</span>
+        </div>
+        <div class="trust-item reveal">
+          <i class="fas fa-star"></i>
+          <span>4.5 Stars on Google</span>
+        </div>
+        <div class="trust-item reveal">
+          <i class="fas fa-phone"></i>
+          <a href="tel:+19739284404">(973) 928-4404</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       SERVICES
+  ═══════════════════════════════════════ -->
+  <section class="services" id="services" aria-label="Services and pricing">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">What We Offer</span>
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-sub">
+          Every cut delivered with care, consistency, and the old-school pride that keeps Clifton coming back.
+        </p>
+      </div>
+
+      <div class="services-grid">
+
+        <article class="service-card reveal" aria-label="Eddie's Classic Cut">
+          <div class="service-icon-wrap">
+            <i class="fas fa-cut"></i>
+          </div>
+          <div class="service-info">
+            <h3>Eddie's Classic Cut</h3>
+            <p>The signature cut that built our reputation. Clean lines, sharp detail, and a finish that lasts.</p>
+          </div>
+          <div class="service-price">
+            <span>$25</span>
+          </div>
+        </article>
+
+        <article class="service-card reveal" aria-label="Taper Fade">
+          <div class="service-icon-wrap">
+            <i class="fas fa-magic"></i>
+          </div>
+          <div class="service-info">
+            <h3>Taper Fade</h3>
+            <p>Smooth, seamless, and precise — our taper fade blends low, mid, or high with a confident touch.</p>
+          </div>
+          <div class="service-price">
+            <span>$30</span>
+          </div>
+        </article>
+
+        <article class="service-card reveal" aria-label="Beard Trim">
+          <div class="service-icon-wrap">
+            <i class="fas fa-user-tie"></i>
+          </div>
+          <div class="service-info">
+            <h3>Beard Trim</h3>
+            <p>Sculpted, shaped, and edged clean. Keep your beard looking sharp and well-maintained every time.</p>
+          </div>
+          <div class="service-price">
+            <span>$18</span>
+          </div>
+        </article>
+
+        <article class="service-card reveal" aria-label="Hot Towel Shave">
+          <div class="service-icon-wrap">
+            <i class="fas fa-fire"></i>
+          </div>
+          <div class="service-info">
+            <h3>Hot Towel Shave</h3>
+            <p>A timeless ritual. Warm towel, straight razor, and that smooth finish you can't get at home.</p>
+          </div>
+          <div class="service-price">
+            <span>$28</span>
+          </div>
+        </article>
+
+        <article class="service-card reveal" aria-label="Senior Cut">
+          <div class="service-icon-wrap">
+            <i class="fas fa-heart"></i>
+          </div>
+          <div class="service-info">
+            <h3>Senior Cut</h3>
+            <p>Respect earned and given. Quality cuts for our senior community at a price that honors them.</p>
+          </div>
+          <div class="service-price">
+            <span>$18</span>
+          </div>
+        </article>
+
+        <article class="service-card reveal service-card--featured" aria-label="The Eddie Special">
+          <div class="service-featured-tag">Best Value</div>
+          <div class="service-icon-wrap">
+            <i class="fas fa-crown"></i>
+          </div>
+          <div class="service-info">
+            <h3>The Eddie Special</h3>
+            <p>The full treatment — classic cut, beard trim, hot towel, and a straight-razor finish. The complete experience.</p>
+          </div>
+          <div class="service-price">
+            <span>$48</span>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="services-cta reveal">
+        <p>Ready to sit in the chair?</p>
+        <a href="tel:+19739284404" class="btn btn-primary">
+          <i class="fas fa-phone"></i> Call to Book
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       ABOUT
+  ═══════════════════════════════════════ -->
+  <section class="about" id="about" aria-label="About Eddie's Barber Shop">
+    <div class="container">
+      <div class="about-inner">
+
+        <div class="about-images reveal">
+          <div class="about-img-main">
+            <img
+              src="images/about-1.jpg"
+              alt="Barber at work in the shop"
+              loading="lazy"
+            />
+          </div>
+          <div class="about-img-accent">
+            <img
+              src="images/about-2.jpg"
+              alt="Classic barbershop tools"
+              loading="lazy"
+            />
+          </div>
+          <div class="about-badge-float">
+            <i class="fas fa-star"></i>
+            <strong>4.5</strong>
+            <span>142 Reviews</span>
+          </div>
+        </div>
+
+        <div class="about-content reveal">
+          <span class="section-label">Our Story</span>
+          <h2 class="section-title">More Than a Haircut.<br />It's a Tradition.</h2>
+          <p>
+            Eddie's Barber Shop isn't just another place to get a cut — it's a cornerstone of the Clifton community. We've built our name the old-fashioned way: one satisfied customer at a time.
+          </p>
+          <p>
+            From the moment you walk through the door, you'll feel the difference. No rushed appointments. No gimmicks. Just skilled hands, sharp blades, and the kind of conversation that makes the time fly.
+          </p>
+          <p>
+            Our 142 five-star reviews speak for themselves. Whether you're a first-timer off Main Ave or a regular who's been coming for years, you'll leave looking exactly how you should — your best.
+          </p>
+
+          <div class="about-pillars">
+            <div class="pillar">
+              <i class="fas fa-check-circle"></i>
+              <span>Trusted by the neighborhood</span>
+            </div>
+            <div class="pillar">
+              <i class="fas fa-check-circle"></i>
+              <span>Honest, fair pricing</span>
+            </div>
+            <div class="pillar">
+              <i class="fas fa-check-circle"></i>
+              <span>Walk-ins always welcome</span>
+            </div>
+            <div class="pillar">
+              <i class="fas fa-check-circle"></i>
+              <span>Consistent results, every visit</span>
+            </div>
+          </div>
+
+          <a href="tel:+19739284404" class="btn btn-primary">
+            <i class="fas fa-phone"></i> Call (973) 928-4404
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       GALLERY
+  ═══════════════════════════════════════ -->
+  <section class="gallery" id="gallery" aria-label="Photo gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Our Work</span>
+        <h2 class="section-title">Inside the Shop</h2>
+        <p class="section-sub">Clean cuts, sharp fades, and a shop that feels like home.</p>
+      </div>
+
+      <div class="gallery-grid">
+
+        <div class="gallery-item gallery-item--large reveal">
+          <img
+            src="images/hero-2.jpg"
+            alt="Barber giving a fade haircut"
+            loading="lazy"
+          />
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal">
+          <img
+            src="images/gallery-3.jpg"
+            alt="Classic barbershop chair"
+            loading="lazy"
+          />
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal">
+          <img
+            src="images/gallery-4.jpg"
+            alt="Precision haircut detail"
+            loading="lazy"
+          />
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal">
+          <img
+            src="images/gallery-5.jpg"
+            alt="Barbershop interior vintage"
+            loading="lazy"
+          />
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal">
+          <img
+            src="images/gallery-6.jpg"
+            alt="Beard trim and styling"
+            loading="lazy"
+          />
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal">
+          <img
+            src="images/gallery-7.jpg"
+            alt="Barber tools and razors"
+            loading="lazy"
+          />
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close image">
+        <i class="fas fa-times"></i>
+      </button>
+      <img src="" alt="" class="lightbox-img" id="lightboxImg" />
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       REVIEWS
+  ═══════════════════════════════════════ -->
+  <section class="reviews" id="reviews" aria-label="Customer reviews">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">What People Say</span>
+        <h2 class="section-title">Trusted by the Neighborhood</h2>
+        <p class="section-sub">142 reviews and counting — here's what keeps Clifton coming back to Eddie's.</p>
+      </div>
+
+      <div class="reviews-summary reveal">
+        <div class="rating-big">4.5</div>
+        <div class="stars-big">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <p>Based on 142 Google Reviews</p>
+      </div>
+
+      <div class="reviews-grid">
+
+        <article class="review-card reveal" aria-label="Review by Marcus T.">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <blockquote>
+            "Been coming to Eddie's for three years and I wouldn't go anywhere else. The fade is always on point and the price is right. This is what a real barbershop feels like."
+          </blockquote>
+          <footer class="review-author">
+            <div class="review-avatar">M</div>
+            <div>
+              <strong>Marcus T.</strong>
+              <span>Clifton, NJ</span>
+            </div>
+          </footer>
+        </article>
+
+        <article class="review-card reveal" aria-label="Review by Joe R.">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <blockquote>
+            "The hot towel shave is incredible — I looked up 'old school barber shop' and this place IS the answer. Eddie knows his craft and the shop has great energy. Highly recommend."
+          </blockquote>
+          <footer class="review-author">
+            <div class="review-avatar">J</div>
+            <div>
+              <strong>Joe R.</strong>
+              <span>Passaic, NJ</span>
+            </div>
+          </footer>
+        </article>
+
+        <article class="review-card reveal" aria-label="Review by Destiny M.">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <blockquote>
+            "Took my son here for his first real haircut and we couldn't have picked a better spot. Patient, professional, and the kid walked out smiling. We're regulars now."
+          </blockquote>
+          <footer class="review-author">
+            <div class="review-avatar">D</div>
+            <div>
+              <strong>Destiny M.</strong>
+              <span>Clifton, NJ</span>
+            </div>
+          </footer>
+        </article>
+
+        <article class="review-card reveal" aria-label="Review by Rene C.">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <blockquote>
+            "Walk-ins accepted, fair wait time, clean shop, and the barbers actually listen to what you want. The Eddie Special is worth every penny — treat yourself."
+          </blockquote>
+          <footer class="review-author">
+            <div class="review-avatar">R</div>
+            <div>
+              <strong>Rene C.</strong>
+              <span>Garfield, NJ</span>
+            </div>
+          </footer>
+        </article>
+
+      </div>
+
+      <div class="reviews-cta reveal">
+        <a href="https://www.google.com/search?q=Eddie%27s+Barber+Shop+Clifton+NJ" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+          <i class="fab fa-google"></i> Read All 142 Reviews
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       CONTACT
+  ═══════════════════════════════════════ -->
+  <section class="contact" id="contact" aria-label="Contact and location">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Find Us</span>
+        <h2 class="section-title">Come On In</h2>
+        <p class="section-sub">Right on Main Ave in Clifton — walk-ins welcome, no appointment needed.</p>
+      </div>
+
+      <div class="contact-inner">
+
+        <div class="contact-info reveal">
+          <h3>Get in Touch</h3>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div>
+              <strong>Address</strong>
+              <a href="https://maps.google.com/?q=1076+Main+Ave,+Clifton,+NJ+07011" target="_blank" rel="noopener noreferrer">
+                1076 Main Ave<br />Clifton, NJ 07011
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div>
+              <strong>Phone</strong>
+              <a href="tel:+19739284404">(973) 928-4404</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div>
+              <strong>Hours</strong>
+              <span>Open Daily &bull; Closes 7 PM</span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-walking"></i>
+            </div>
+            <div>
+              <strong>Walk-Ins</strong>
+              <span>Always Welcome — No Appointment Needed</span>
+            </div>
+          </div>
+
+          <div class="contact-actions">
+            <a href="tel:+19739284404" class="btn btn-primary">
+              <i class="fas fa-phone"></i> Call Now
+            </a>
+            <a href="https://maps.google.com/?q=1076+Main+Ave,+Clifton,+NJ+07011" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+              <i class="fas fa-directions"></i> Get Directions
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-map reveal">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.684!2d-74.1571218!3d40.8798483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2fe5a12345678%3A0xabcdef1234567890!2s1076+Main+Ave%2C+Clifton%2C+NJ+07011!5e0!3m2!1sen!2sus!4v1710000000000!5m2!1sen!2sus"
+            width="100%"
+            height="420"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Eddie's Barber Shop location on Google Maps"
+            aria-label="Google Maps showing Eddie's Barber Shop at 1076 Main Ave, Clifton, NJ"
+          ></iframe>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-inner">
+
+          <div class="footer-brand">
+            <a href="#hero" class="footer-logo" aria-label="Eddie's Barber Shop">
+              <i class="fas fa-cut"></i>
+              <span>Eddie's Barber Shop</span>
+            </a>
+            <p>Clifton's trusted neighborhood barbershop. Classic cuts, honest prices, and a chair you can always count on.</p>
+            <div class="footer-rating">
+              <div class="footer-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span>4.5 &bull; 142 Reviews</span>
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#services">Services &amp; Pricing</a></li>
+              <li><a href="#about">Our Story</a></li>
+              <li><a href="#gallery">Photo Gallery</a></li>
+              <li><a href="#reviews">Customer Reviews</a></li>
+              <li><a href="#contact">Location &amp; Hours</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-services">
+            <h4>Services</h4>
+            <ul>
+              <li>Eddie's Classic Cut — $25</li>
+              <li>Taper Fade — $30</li>
+              <li>Beard Trim — $18</li>
+              <li>Hot Towel Shave — $28</li>
+              <li>Senior Cut — $18</li>
+              <li>The Eddie Special — $48</li>
+            </ul>
+          </div>
+
+          <div class="footer-contact">
+            <h4>Visit Us</h4>
+            <address>
+              <p><i class="fas fa-map-marker-alt"></i> 1076 Main Ave<br />Clifton, NJ 07011</p>
+              <p><i class="fas fa-phone"></i> <a href="tel:+19739284404">(973) 928-4404</a></p>
+              <p><i class="fas fa-clock"></i> Open Daily &bull; Closes 7 PM</p>
+            </address>
+            <a href="tel:+19739284404" class="btn btn-primary footer-btn">
+              <i class="fas fa-phone"></i> Call Now
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Eddie's Barber Shop. All rights reserved. &bull; 1076 Main Ave, Clifton, NJ 07011</p>
+        <p class="footer-credit">Serving Clifton with pride.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
